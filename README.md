@@ -58,3 +58,13 @@ The model was trained on 30 sequences per action, recorded by the author. Expand
     ```
 3.  Perform signs in front of the webcam.
 4.  Press 'q' to quit.
+
+## Future Improvements
+
+*   **Expand Dataset:** Collect more varied data (in progress).
+*   Improve prediction logic & model architecture.
+*   Optimize for speed.
+
+## License
+
+*This project is licensed under the MIT License*
