@@ -1,4 +1,4 @@
-# Real-Time Sign Language Action Detection
+# Real-Time Sign Language Action Detection ver0.1
 
 ## Overview
 
@@ -37,7 +37,7 @@ The model was trained on 30 sequences per action, recorded by the author. Expand
 ## Setup
 
 1.  **Prerequisites:** Python 3.8+, Pip, Webcam.
-2.  **Clone:** `git clone https://github.com/your_username/your_repository_name.git && cd your_repository_name`
+2.  **Clone:** `git clone https://github.com/saikumarsk2210/SignLanguage-Recognition-Using-Actions.git`
 3.  **Virtual Environment (Recommended):**
     ```bash
     python -m venv .venv 
@@ -45,19 +45,23 @@ The model was trained on 30 sequences per action, recorded by the author. Expand
     ```
 4.  **Install Dependencies:**
     ```bash
-    pip install -r requirements.txt
+    !pip install --upgrade tensorflow opencv-python mediapipe scikit-learn matplotlib
+
     ```
-    *(Ensure `requirements.txt` exists)*
 
 ## Usage
 
 1.  Place the `sign_language_model.keras` file in the project root.
-2.  Run the detection script:
+2.  **Launch Jupyter:** Open your terminal/command prompt in the project directory and run:
     ```bash
-    python realtime_detection.py
+    jupyter notebook 
+    # OR
+    jupyter lab 
     ```
-3.  Perform signs in front of the webcam.
-4.  Press 'q' to quit.
+3.  **Open Notebook:** Your web browser should open the Jupyter interface. Navigate to and open the main project notebook file (e.g., `Sign_Language_Detection.ipynb`).
+4.  **Run Cells:** Execute the cells in the notebook sequentially. The cell containing the main detection loop will activate your webcam and open an OpenCV window.
+5.  **Perform Signs:** Perform signs in front of the webcam.
+6.  **Quit:** To stop the detection, interrupt the kernel in Jupyter (usually via the "Kernel" menu or a stop button) and press 'q' in the active OpenCV window. Close the Jupyter Notebook server in your terminal when finished (usually Ctrl+C).
 
 ## Future Improvements
 
