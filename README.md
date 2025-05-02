@@ -24,7 +24,7 @@ This project demonstrates real-time detection of specific sign language gestures
 
 ## Dataset
 
-The model was trained on 30 sequences per action, recorded by the author. Expanding this dataset is the primary goal for improving performance.
+The model was trained on 30 sequences per action, recorded by me. Expanding this dataset is the primary goal for improving performance.
 
 ## Technology Stack
 
